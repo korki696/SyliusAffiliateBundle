@@ -19,9 +19,9 @@
         "php": "^5.5.9|^7.0",
 
         "symfony/framework-bundle":        "^2.7.7",
-        "sylius/core-bundle":              "0.19.*@dev",
-        "sylius/mailer-bundle":            "0.19.*@dev",
-        "sylius/resource-bundle":          "0.19.*@dev"
+        "sylius/core-bundle":              "1.0.x-dev",
+        "sylius/mailer-bundle":            "1.0.x-dev",
+        "sylius/resource-bundle":          "1.0.x-dev"
     },
     "require-dev": {
         "phpspec/phpspec": "^2.4",
