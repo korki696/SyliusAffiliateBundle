@@ -12,11 +12,12 @@
 namespace Pentarim\SyliusAffiliateBundle\Model;
 
 use Sylius\Component\Resource\Model\TimestampableInterface;
+use Sylius\Component\Resource\Model\ResourceInterface;
 
 /**
  * @author Joseph Bielawski <stloyd@gmail.com>
  */
-interface RewardInterface extends AffiliateAwareInterface, TimestampableInterface
+interface RewardInterface extends AffiliateAwareInterface, TimestampableInterface, ResourceInterface
 {
     const TYPE_EARNING = 1;
     const TYPE_PAYOUT  = 2;
