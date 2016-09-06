@@ -11,7 +11,9 @@
 
 namespace Pentarim\SyliusAffiliateBundle\Model;
 
-interface ProvisionInterface
+use Sylius\Component\Resource\Model\ResourceInterface;
+
+interface ProvisionInterface extends ResourceInterface
 {
     const TYPE_FIXED_PROVISION      = 'fixed_provision';
     const TYPE_PERCENTAGE_PROVISION = 'percentage_provision';
