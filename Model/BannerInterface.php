@@ -12,9 +12,8 @@
 namespace Pentarim\SyliusAffiliateBundle\Model;
 
 use Sylius\Component\Core\Model\ImageInterface;
-use Sylius\Component\Resource\Model\ResourceInterface;
 
-interface BannerInterface extends ImageInterface, ResourceInterface
+interface BannerInterface extends ImageInterface
 {
     /**
      * Get name.
