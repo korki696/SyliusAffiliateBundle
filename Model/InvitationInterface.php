@@ -12,11 +12,12 @@
 namespace Pentarim\SyliusAffiliateBundle\Model;
 
 use Sylius\Component\Resource\Model\TimestampableInterface;
+use Sylius\Component\Resource\Model\ResourceInterface;
 
 /**
  * @author Joseph Bielawski <stloyd@gmail.com>
  */
-interface InvitationInterface extends AffiliateAwareInterface, TimestampableInterface
+interface InvitationInterface extends AffiliateAwareInterface, TimestampableInterface, ResourceInterface
 {
     const INVITATION_SENT = 0;
     const INVITATION_USED = 1;
