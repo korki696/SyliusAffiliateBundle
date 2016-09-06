@@ -11,6 +11,8 @@
 
 namespace Pentarim\SyliusAffiliateBundle\Model;
 
+use Sylius\Component\Resource\Model\ResourceInterface;
+
 interface RuleInterface extends ResourceInterface
 {
     const TYPE_URI_VISIT     = 'uri_visit';
